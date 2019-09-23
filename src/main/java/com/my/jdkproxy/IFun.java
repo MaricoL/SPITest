@@ -1,5 +1,7 @@
 package com.my.jdkproxy;
 
+import java.sql.SQLException;
+
 /**
  * @description 接口
  * @author mrjimmylin
@@ -7,5 +9,5 @@ package com.my.jdkproxy;
  */
 public interface IFun {
 
-    void helloWorld();
+    void helloWorld() throws SQLException;
 }
